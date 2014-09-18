@@ -1,6 +1,6 @@
 ## About
 
-This image runs a Drupal site with the `t_chat` module enabled to demonstrate its features. The `Dockerfile` of this image can also be used to understand how the required environment for `t_chat` can be built.
+This image runs a Drupal site with the [Teamie Chat](https://github.com/teamie-chat/drupal) Drupal module enabled to demonstrate its features. The `Dockerfile` of this image can also be used to understand how the required environment for `t_chat` can be built.
 
 ## Installation
 
