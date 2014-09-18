@@ -10,6 +10,7 @@ This image runs a Drupal site with the `t_chat` module enabled to demonstrate it
 
 2. Run a container from this image:
 
-        docker run -p "8080:80" -p "8888:8888" -d -v "/home/ubuntu/logs/apache:/var/log/apache"  amarnus/teamie-chat-demo
+        docker run -p "8080:80" -p "8888:8888" \
+          -d -v "/home/ubuntu/logs/apache:/var/log/apache"  amarnus/teamie-chat-demo
 
 3. Navigate to `http://localhost:8080` and login with username `admin` and password `admin`. You can use the *Switch User* block on the right-hand side of the page to switch as a different user.
